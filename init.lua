@@ -284,6 +284,14 @@ require('lazy').setup({
     },
   },
 
+  -- adding image view plugin
+  {
+    '3rd/image.nvim',
+    opts = {
+      backend = 'kitty', -- or "ueberzug"
+    },
+  },
+
   { -- Adds git related signs to the gutter, as well as utilities for managing changes
     'lewis6991/gitsigns.nvim',
     opts = {
